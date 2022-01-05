@@ -16,7 +16,7 @@ global with sharing class ContactWebService {
             insert thisContact;
             return thisContact.Id;
         }
-    }
+        }
     //Method to update contact from AXG
     @HttpPatch
     global static Contact updateContactFromAXG() {
